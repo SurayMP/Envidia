@@ -1,0 +1,117 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+body {
+  background-color: lightgreen;
+  background-image: url(imagenes/fondo.jpg);
+}
+header {
+  background-color: rgb(66, 122, 108);
+  height: 100px;
+  padding: 10px;
+}
+h1 {
+  color: white;
+}
+nav {
+  background-color: rgb(105, 184, 180);
+  margin-top: 20px;
+}
+ul {
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+}
+li {
+  display: inline-block;
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+}
+nav ul li a:hover {
+  background-color: rgb(252, 198, 127);
+  color: orange;
+}
+section {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  margin-top: 20px;
+}
+article {
+  display: flex;
+  background-color: rgb(52, 68, 158);
+  padding: 5px 10px;
+  height: 100%;
+  width: 65%;
+  color: white;
+  float: left;
+  border-radius: 8px;
+  font-size: 15px;
+}
+aside {
+  background-color: rgb(68, 108, 143);
+  width: 35%;
+  padding: 20px 10px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.contenedor {
+  display: flex;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.beneficios {
+  background-color: white;
+  color: orange;
+  width: 30%;
+  height: 600px;
+  padding: 30px;
+  font-size: 17px;
+  border-radius: 8px;
+  border: 2px solid orange;
+}
+.dieta {
+  background-color: white;
+  color: orange;
+  width: 30%;
+  height: 600px;
+  font-size: 17px;
+  border-radius: 8px;
+  padding: 30px;
+  border: 2px solid orange;
+}
+.almacenar {
+  background-color: white;
+  color: orange;
+  width: 40%;
+  height: 600px;
+  font-size: 17px;
+  border-radius: 8px;
+  padding: 30px;
+  border: 2px solid orange;
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+footer {
+  font-size: 15px;
+  background-color: white;
+  color: orangered;
+  height: 30px;
+  text-align: center;
+}
+.mail {
+  color: black;
+}
